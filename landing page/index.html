@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrate Shifu's Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Celebrate Shifu's Birthday!</h1>
+            <p>Join us for a special celebration</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">RSVP</a></li>
+                    <li><a href="#rsvp">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About the Party</h2>
+            <p>Join us on 27/09/2024 at 7:00pm for Shifu's birthday celebration at Hotel Magnolia.</p>
+            <p>This party will be Bollywood Theme
+               Clothes drapping in bright pink orange-gold and red, western dress. .</p>
+        </div>
+    </section>
+
+    <section id="rsvp">
+        <div class="container">
+            <h2>RSVP</h2>
+            <form action="submit-rsvp.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <button type="submit">Send RSVP</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="event-details">
+        <div class="container">
+            <h2>Event Details</h2>
+            <p>The celebration will include:</p>
+            <ul>
+                <li>Activities and games</li>
+                <li>Dinner and refreshments</li>
+                <li>Dance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For any questions or further information, please contact us at shi@gmail.com .</p>
+            <p>Follow us on social media.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shiya. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
